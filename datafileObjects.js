@@ -30,14 +30,14 @@ let slide2 = new Image();
 let slideHand = new Image();
 let microScope = new Image();
 let bg = new Image();
-bottle.src = "../assets/bottle.png";
-drop.src = "../assets/drop.png";
-dropper.src = "../assets/dropper.png";
-dropperHand.src = "../assets/dropperHand.png"
-slide1.src = "../assets/Slide.png";
-slide2.src = "../assets/Slide.png";
-slideHand.src = "../assets/slideHand.png";
-microScope.src = "../assets/Microscope.png";
+bottle.src = "assets/bottle.png";
+drop.src = "assets/drop.png";
+dropper.src = "assets/dropper.png";
+dropperHand.src = "assets/dropperHand.png"
+slide1.src = "assets/Slide.png";
+slide2.src = "assets/Slide.png";
+slideHand.src = "assets/slideHand.png";
+microScope.src = "assets/Microscope.png";
 bg.src = 'assets/Bg.jpg';
 //----------------------------------------
 
@@ -45,7 +45,7 @@ bg.src = 'assets/Bg.jpg';
 // Asset links are inside new3.js
 let circle = new Path2D();
 let microDrops = new Image();
-microDrops.src = "../assets/microDrops1.png";
+microDrops.src = "assets/microDrops1.png";
 //----------------------------------------
 
 //Common canvas and requestFrame data ===========================

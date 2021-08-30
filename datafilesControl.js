@@ -151,7 +151,7 @@ dropWater.addEventListener("click", () => { //Animation 3 part 1
     setTimeout(() => {
       disableBtnIndex(3, true);
       controlAnimeBtnFunc();
-      // controlAnimationFunc(2);
+      controlAnimationFunc(2);
     }, 3000);
   }, 7500);
 });

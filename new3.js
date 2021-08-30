@@ -14,9 +14,9 @@ let num = getRandomInt(bactArr.length);
 let bactName = bactArr[num];
 const bacteria1 = new Image();
 
-bacteria1.src = "../assets/" + bactName;
+bacteria1.src = "assets/" + bactName;
 let expBactName = actBactName[num];
-import { requestFrame, canvasXY, bacteriaXY } from "../datafileObjects.js";
+import { requestFrame, canvasXY, bacteriaXY } from "./datafileObjects.js";
 bacteriaXY.bacteria1 = bacteria1;
 // ----------------------------------------------------------------------
 
@@ -31,7 +31,7 @@ const dropArr = [];
 dropLoc.forEach((loc, index)=>{
   let dropImg = new Image();  
   let num = getRandomInt(dropOptions.length);
-  dropImg.src = "../assets/" + dropOptions[num];
+  dropImg.src = "assets/" + dropOptions[num];
   dropArr[index] = [dropImg, loc[0], loc[1]];
   // console.log(dropArr);
 })
